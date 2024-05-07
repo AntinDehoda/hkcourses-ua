@@ -10459,6 +10459,8 @@ div.eapps-widget {
 } 
 .diaporama-content {
   max-width: 45rem;
+  min-width: 720px;
+  min-height: 450px;
 }
    
   .const {
