@@ -10454,15 +10454,15 @@ div.eapps-widget {
   font-family: Blur,Helvetica,Arial,sans-serif;
 }
 @media print, screen and (min-width: 768px) {
-.diaporama-content--title, .diaporama-content--title small {
-    font-size: 1.5rem;
-} 
-.diaporama-content {
-  max-width: 45rem;
-  min-width: 720px;
-  min-height: 450px;
-}
-   
+  .diaporama-content--title, .diaporama-content--title small {
+      font-size: 1.5rem;
+  } 
+  .diaporama-content {
+    max-width: 45rem;
+    min-width: 720px;
+    min-height: 450px;
+  }
+
   .const {
      position: absolute;
      bottom: 2rem;
@@ -10486,5 +10486,8 @@ div.eapps-widget {
      min-height: 80vh;
      width: auto;
      min-width: 100%;
+  }
+  .orange-desktop {
+    color:#ff7d19;
   }
 }
