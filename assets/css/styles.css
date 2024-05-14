@@ -1672,6 +1672,7 @@ code {
 .button:hover {
   background-color:#ee6700
 }
+
 .button.primary,
 .button.primary.disabled,
 .button.primary.disabled:focus,
@@ -2024,6 +2025,10 @@ code {
   float:none;
   margin-left:0
 }
+.button.transparent, .button.transparent:hover, .button.transparent::before {
+  background-color: transparent !important;
+  border: 0!important;
+} 
 a.button:focus,
 a.button:hover {
   text-decoration:none
@@ -2040,7 +2045,9 @@ a.button:hover {
 [type=tel],
 [type=text],
 [type=time],
-[type=url],
+[type=url],.button.transparent {
+  background-color: transparent !important;
+}
 [type=week],
 textarea {
   display:block;
@@ -10430,7 +10437,9 @@ div.eapps-widget {
 }
 
 
-
+.col-6-dipo {
+  width: unset;
+}
 
 .black {
   color: black;
@@ -10462,7 +10471,9 @@ div.eapps-widget {
     min-width: 720px;
     min-height: 450px;
   }
-
+  .col-6-dipo {
+    width: 50%;
+  }
   .const {
      position: absolute;
      bottom: 2rem;
