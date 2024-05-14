@@ -10435,12 +10435,19 @@ div.eapps-widget {
     content:none!important
   }
 }
-
+.map-link {
+  color: #FFF;
+  font-size: 1.5rem;
+}
 
 .col-6-dipo {
   width: unset;
+  text-align: center;
 }
-
+.col-12-dipo {
+  width: 100%;
+  text-align: left;
+}
 .black {
   color: black;
 }
