@@ -10441,7 +10441,7 @@ div.eapps-widget {
 }
 
 .col-6-dipo {
-  width: unset;
+  width: 100%;
   text-align: center;
 }
 .col-12-dipo {
