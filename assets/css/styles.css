@@ -10437,7 +10437,7 @@ div.eapps-widget {
 }
 .map-link {
   color: #FFF;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 .col-6-dipo {
@@ -10507,5 +10507,8 @@ div.eapps-widget {
   }
   .orange-desktop {
     color:#ff7d19;
+  }
+  .map-link {
+    font-size: 1.5rem;
   }
 }
