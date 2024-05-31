@@ -10470,7 +10470,7 @@ div.eapps-widget {
   font-family: Blur,Helvetica,Arial,sans-serif;
 }
 
-.bottom-block {
+/* .bottom-block {
   background-color: #fff;
    min-height: 50px;
    color: #060606;
@@ -10484,11 +10484,24 @@ div.eapps-widget {
 }
 .bb-comment {
   font-style: italic; font-size:1.5625rem; color: #1D69B4;
-}
+} */
 .map-link img {
   float: left; width: 70px; margin-top: -15px;
 }
 @media print, screen and (min-width: 768px) {
+  .section--diaporama {
+    height: calc(100vh - 177px);
+    background-image: url('../images/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    .diaporama {
+      height: 100%;
+      position: unset;
+    }
+    .diaporama-img {
+      display: none;
+    }
+  }
   .diaporama-content--title, .diaporama-content--title small {
       font-size: 1.5rem;
   } 
@@ -10530,13 +10543,13 @@ div.eapps-widget {
   .map-link {
     font-size: 1.5rem;
   }
-  .bottom-block .bb-text {
+  /* .bottom-block .bb-text {
     display: flex; text-align: center;
   flex-direction: column;
   justify-content: center;
   padding: 0 1rem;
-  }
-  .bottom-block img {
+  } */
+  /* .bottom-block img {
     max-width: 80%; height:auto;
   }
   .bottom-block {
@@ -10550,6 +10563,13 @@ div.eapps-widget {
   }
   .bb-comment {
     display: none;
+  } */
+  .bottom-block {
+    position: absolute;
+    bottom: 60px;
+    right: 60px;
+    width: 300px;
+    z-index: 10;
   }
   .map-link img {
     margin-top: 0;
